@@ -8,21 +8,11 @@
     "level": "info"
   },
   "management": true,
-  "entrypoint": "regina",
-  "services": [
-    {
-      "id": "regina",
-      "path": "./services/regina",
-      "config": "watt.json",
-      "management": {
-        "operations": [
-          "addApplications",
-          "removeApplications",
-          "getApplications",
-          "getApplicationDetails",
-          "inject"
-        ]
-      }
-    }
-  ]
+  "entrypoint": "gateway",
+  "autoload": {
+    "path": "services",
+    "exclude": [
+      "regina/vfs"
+    ]
+  }
 }

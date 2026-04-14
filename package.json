@@ -6,8 +6,10 @@
   ],
   "scripts": {
     "start": "wattpm start",
+    "build": "wattpm build",
     "dev": "wattpm dev"
   },
+  "type": "module",
   "dependencies": {
     "ai": "^6.0.142",
     "wattpm": "^3.0.0",

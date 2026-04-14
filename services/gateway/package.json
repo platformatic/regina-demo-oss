@@ -1,0 +1,8 @@
+{
+  "name": "gateway-service",
+  "private": true,
+  "dependencies": {
+    "@platformatic/service": "^3.52.1",
+    "@fastify/http-proxy": "^11.4.3"
+  }
+}
