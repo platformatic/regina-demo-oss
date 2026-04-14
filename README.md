@@ -26,29 +26,29 @@ npm start
 
 ## Web UI
 
-Visit `http://127.0.0.1/web` to check the NextJS app, calling Regina API
+Visit `http://0.0.0.0/web` to check the NextJS app, calling Regina API
 
 ## CLI
 
 ```bash
 # List agents
-curl http://127.0.0.1:3042/regina/agents
+curl http://0.0.0.0:3042/regina/agents
 
 # Spawn a weather agent
-curl -X POST http://127.0.0.1:3042/regina/agents/weather/instances
+curl -X POST http://0.0.0.0:3042/regina/agents/weather/instances
 # Returns { "instanceId": "weather-a1b2c3", ... }
 
 # Chat
-curl -X POST http://127.0.0.1:3042/regina/instances/weather-a1b2c3/chat \
+curl -X POST http://0.0.0.0:3042/regina/instances/weather-a1b2c3/chat \
   -H 'Content-Type: application/json' \
   -d '{"message": "What is the weather in London?"}'
 
 # Spawn a github agent
-curl -X POST http://127.0.0.1:3042/regina/agents/github/instances
+curl -X POST http://0.0.0.0:3042/regina/agents/github/instances
 # Returns { "instanceId": "github-a1b2c3", ... }
 
 # Chat
-curl -X POST http://127.0.0.1:3042/regina/instances/github-a1b2c3/chat \
+curl -X POST http://0.0.0.0:3042/regina/instances/github-a1b2c3/chat \
   -H 'Content-Type: application/json' \
   -d '{"message": "Tell me about the platformatic/platformatic repo"}'
 ```
