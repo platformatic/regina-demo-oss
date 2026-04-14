@@ -132,8 +132,16 @@ dist
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
-!.yarn/versions
+!.yarn/versions 
 
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Regina VFS files
+services/regina/vfs/*
+!services/regina/vfs/.gitkeep
+
+# VSCode / Cursor settings
+.cursor/
+.vscode/

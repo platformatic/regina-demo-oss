@@ -1,0 +1,5 @@
+{
+    "$schema": "https://schemas.platformatic.dev/gateway/3.52.1.json",
+    "module": "@platformatic/gateway"
+  }
+  

@@ -1,0 +1,8 @@
+{
+    "name": "gateway-service",
+    "private": true,
+    "dependencies": {
+      "@platformatic/gateway": "^3.52.1"
+    }
+  }
+  
