@@ -1,0 +1,10 @@
+{
+  "module": "@platformatic/regina",
+  "regina": {
+    "agentsDir": "../../agents",
+    "redis": "redis://localhost:6379",
+    "storage": {
+      "type": "redis"
+    }
+  }
+}
