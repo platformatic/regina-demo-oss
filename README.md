@@ -10,7 +10,7 @@ cp .env.sample .env
 # Edit .env and set your AI_GATEWAY_API_KEY
 
 npm install
-npx wattpm@latest start
+npx start
 ```
 
 ### Usage
