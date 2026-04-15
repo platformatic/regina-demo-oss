@@ -4,7 +4,7 @@ Demo applications for Regina — AI agent orchestrator for Platformatic Watt.
 
 ## Setup
 
-Run `docker compose up -d` to start the Valkey server
+Run `docker compose up -d` to start the Valkey server on `127.0.0.1:6379`
 
 ```bash
 cp .env.sample .env

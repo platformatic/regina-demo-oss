@@ -1,0 +1,13 @@
+services:
+  valkey:
+    image: valkey/valkey:8-alpine
+    container_name: regina-demo-valkey
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - valkey-data:/data
+    command: ["valkey-server", "--save", "", "--appendonly", "no"]
+
+volumes:
+  valkey-data:

@@ -2,7 +2,7 @@
   "name": "regina-service",
   "private": true,
   "dependencies": {
-    "@platformatic/regina": "^1.0.0",
-    "@platformatic/regina-agent": "^1.0.0"
+    "@platformatic/regina": "^1.1.0",
+    "@platformatic/regina-agent": "^1.1.0"
   }
 }
